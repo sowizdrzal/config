@@ -528,3 +528,5 @@ compinit
 #select and printscreen into clipboard
 alias prts='maim -s | xclip -selection clipboard -t image/png'
 
+# jabra headset
+alias jbhs="pactl set-card-profile bluez_card.50_C2_ED_64_CD_AD handsfree_head_unit"
